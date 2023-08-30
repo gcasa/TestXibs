@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" useAutolayout="YES" propertyAccessControl="none" customObjectInstantiationMethod="direct">
+  <dependencies>
+    <deployment identifier="macosx"/>
+    <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+    <capability name="documents saved in the Xcode 8 format" minToolsVersion="8"/>
+  </dependencies>
+  <objects>
+    <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+    <customObject id="-2" userLabel="File's Owner" customClass="NSApplication"/>
+    <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+    <window id="6e6-46-f77" autodisplay="YES" acceptsMouseMovedEvents="YES" viewsNeedDisplay="YES" contentView="772-83-029" opaque="YES" canHide="YES" title="My Window" representedFilename="Window" miniwindowTitle="My Window">
+      <color key="backgroundColor" name="windowBackgroundColor" catalog="System" colorSpace="catalog"/>
+      <windowStyleMask titled="YES" closable="YES" miniaturizable="YES" resizable="YES" key="styleMask"/>
+      <rect key="contentRect" x="1.0" y="9.0" width="600" height="400"/>
+      <rect key="screenRect" x="0.0" y="0.0" width="3840" height="2160"/>
+      <view id="772-83-029" frameCenterRotation="0.0" boundsRotation="0.0" autoresizesSubviews="YES" frameRotation="0.0" key="contentView">
+        <rect key="bounds" x="0.0" y="0.0" width="600" height="400"/>
+        <autoresizingMask flexibleMinY="YES" key="autoresizeMask"/>
+        <rect key="frame" x="1.0" y="9.0" width="600" height="400"/>
+        <subviews>
+          <matrix id="782-83-029" cell="6c2-83-029" frameCenterRotation="0.0" selectionbyrect="YES" tabKeyTraversesCells="YES" enabled="YES" boundsRotation="0.0" frameRotation="0.0" cellClass="NSButtonCell">
+            <rect key="bounds" x="0.0" y="0.0" width="386" height="274"/>
+            <size key="cellSize" width="128" height="54"/>
+            <actionCell id="6c2-83-029" key="cell" alignment="left" enabled="YES" wraps="YES"/>
+            <rect key="frame" x="132.0" y="78.0" width="386" height="274"/>
+            <size key="intercellSpacing" width="1" height="1"/>
+            <cells>
+              <column>
+                <buttonCell id="3F8-4C-DDE" alignment="left" imageDimsWhenDisabled="YES" type="radio" imagePosition="left" enabled="YES" title="Radio">
+                  <image key="image" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadio" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                  <image key="alternateImage" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadioSelected" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                </buttonCell>
+                <buttonCell id="6c2-83-529" alignment="left" imageDimsWhenDisabled="YES" type="radio" imagePosition="left" enabled="YES" title="Radio">
+                  <image key="image" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadio" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                  <image key="alternateImage" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadioSelected" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                </buttonCell>
+                <buttonCell id="283-13-129" alignment="left" imageDimsWhenDisabled="YES" type="radio" imagePosition="left" enabled="YES" title="Radio">
+                  <image key="image" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadio" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                  <image key="alternateImage" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadioSelected" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                </buttonCell>
+                <buttonCell id="6c2-83-129" alignment="left" imageDimsWhenDisabled="YES" type="radio" imagePosition="left" enabled="YES" title="Radio">
+                  <image key="image" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadio" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                  <image key="alternateImage" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadioSelected" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                </buttonCell>
+                <buttonCell id="6c2-83-629" alignment="left" imageDimsWhenDisabled="YES" type="radio" imagePosition="left" enabled="YES" title="Radio">
+                  <image key="image" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadio" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                  <image key="alternateImage" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadioSelected" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                </buttonCell>
+              </column>
+              <column>
+                <buttonCell id="6c2-83-129" alignment="left" imageDimsWhenDisabled="YES" type="radio" imagePosition="left" enabled="YES" title="Radio">
+                  <image key="image" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadio" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                  <image key="alternateImage" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadioSelected" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                </buttonCell>
+                <buttonCell id="6c2-83-629" alignment="left" imageDimsWhenDisabled="YES" type="radio" imagePosition="left" enabled="YES" title="Radio">
+                  <image key="image" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadio" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                  <image key="alternateImage" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadioSelected" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                </buttonCell>
+                <buttonCell id="283-13-229" alignment="left" imageDimsWhenDisabled="YES" type="radio" imagePosition="left" enabled="YES" title="Radio">
+                  <image key="image" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadio" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                  <image key="alternateImage" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadioSelected" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                </buttonCell>
+                <buttonCell id="6c2-83-329" alignment="left" imageDimsWhenDisabled="YES" type="radio" imagePosition="left" enabled="YES" title="Radio">
+                  <image key="image" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadio" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                  <image key="alternateImage" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadioSelected" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                </buttonCell>
+                <buttonCell id="6c2-83-729" alignment="left" imageDimsWhenDisabled="YES" type="radio" imagePosition="left" enabled="YES" title="Radio">
+                  <image key="image" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadio" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                  <image key="alternateImage" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadioSelected" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                </buttonCell>
+              </column>
+              <column>
+                <buttonCell id="6c2-83-329" alignment="left" imageDimsWhenDisabled="YES" type="radio" imagePosition="left" enabled="YES" title="Radio">
+                  <image key="image" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadio" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                  <image key="alternateImage" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadioSelected" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                </buttonCell>
+                <buttonCell id="6c2-83-729" alignment="left" imageDimsWhenDisabled="YES" type="radio" imagePosition="left" enabled="YES" title="Radio">
+                  <image key="image" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadio" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                  <image key="alternateImage" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadioSelected" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                </buttonCell>
+                <buttonCell id="283-13-329" alignment="left" imageDimsWhenDisabled="YES" type="radio" imagePosition="left" enabled="YES" title="Radio">
+                  <image key="image" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadio" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                  <image key="alternateImage" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadioSelected" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                </buttonCell>
+                <buttonCell id="6c2-83-429" alignment="left" imageDimsWhenDisabled="YES" type="radio" imagePosition="left" enabled="YES" title="Radio">
+                  <image key="image" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadio" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                  <image key="alternateImage" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadioSelected" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                </buttonCell>
+                <buttonCell id="6c2-83-829" alignment="left" imageDimsWhenDisabled="YES" type="radio" imagePosition="left" enabled="YES" title="Radio">
+                  <image key="image" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadio" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                  <image key="alternateImage" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSRadioSelected" prefersColorMatch="YES">
+                    <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                  </image>
+                </buttonCell>
+              </column>
+            </cells>
+          </matrix>
+        </subviews>
+      </view>
+    </window>
+    <menu id="44F-37-0A4" systemMenu="main" title="Main Menu">
+      <items>
+        <menuItem id="171-71-166">
+          <menu id="4d6-56-e75" menuChangedMessagesEnabled="YES" title="Main Menu" autoenablesItems="YES" systemMenu="apple" key="submenu">
+            <items>
+              <menuItem id="6d2-83-029" title="Hide" keyEquivalent="h" enabled="YES" command="YES" shift="YES" control="YES" option="YES">
+                <connections>
+                  <action selector="hide:" target="-1" id="28E-BD-FC4"/>
+                </connections>
+                <image key="mixedStateImage" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSMenuMixed" prefersColorMatch="YES">
+                  <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                </image>
+                <image key="onStateImage" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSMenuSelected" prefersColorMatch="YES">
+                  <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                </image>
+              </menuItem>
+              <menuItem id="6d2-83-129" title="Quit" keyEquivalent="q" enabled="YES" command="YES" shift="YES" control="YES" option="YES">
+                <connections>
+                  <action selector="terminate:" target="-1" id="1FC-41-67E"/>
+                </connections>
+                <image key="mixedStateImage" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSMenuMixed" prefersColorMatch="YES">
+                  <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                </image>
+                <image key="onStateImage" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSMenuSelected" prefersColorMatch="YES">
+                  <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+                </image>
+              </menuItem>
+            </items>
+          </menu>
+        </menuItem>
+      </items>
+    </menu>
+  </objects>
+</document>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" useAutolayout="YES" propertyAccessControl="none" customObjectInstantiationMethod="direct">
+  <dependencies>
+    <deployment identifier="macosx"/>
+    <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+    <capability name="documents saved in the Xcode 8 format" minToolsVersion="8"/>
+  </dependencies>
+  <objects>
+    <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+    <customObject id="-2" userLabel="File's Owner" customClass="NSApplication"/>
+    <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+    <window id="6e6-46-f77" autodisplay="YES" viewsNeedDisplay="YES" contentView="772-83-029" opaque="YES" canHide="YES" title="My Window" representedFilename="Window" miniwindowTitle="My Window">
+      <color key="backgroundColor" name="windowBackgroundColor" catalog="System" colorSpace="catalog"/>
+      <windowStyleMask titled="YES" closable="YES" miniaturizable="YES" resizable="YES" key="styleMask"/>
+      <rect key="contentRect" x="1.0" y="9.0" width="600" height="400"/>
+      <rect key="screenRect" x="0.0" y="0.0" width="3840" height="2160"/>
+      <view id="772-83-029" frameCenterRotation="0.0" boundsRotation="0.0" autoresizesSubviews="YES" frameRotation="0.0" key="contentView">
+        <rect key="bounds" x="0.0" y="0.0" width="600" height="400"/>
+        <autoresizingMask flexibleMinY="YES" key="autoresizeMask"/>
+        <rect key="frame" x="1.0" y="9.0" width="600" height="400"/>
+        <subviews>
+          <button id="6e2-83-029" cell="6c2-83-029" frameCenterRotation="0.0" title="Switch" enabled="YES" boundsRotation="0.0" autoresizesSubviews="YES" frameRotation="0.0">
+            <rect key="bounds" x="0.0" y="0.0" width="67" height="16"/>
+            <buttonCell id="6c2-83-029" key="cell" alignment="left" type="check" imagePosition="left" enabled="YES" title="Switch" wraps="YES">
+              <image key="image" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSSwitch" prefersColorMatch="YES">
+                <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+              </image>
+              <image key="alternateImage" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSSwitchSelected" prefersColorMatch="YES">
+                <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+              </image>
+            </buttonCell>
+            <rect key="frame" x="189.0" y="269.0" width="67" height="16"/>
+            <image key="image" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSSwitch" prefersColorMatch="YES">
+              <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+            </image>
+            <image key="alternateImage" archiveByName="YES" matchesOnMultipleResolution="YES" name="GSSwitchSelected" prefersColorMatch="YES">
+              <color key="backgroundColor" whiteComponent="0.0" colorSpace="calibratedWhite"/>
+            </image>
+          </button>
+        </subviews>
+      </view>
+    </window>
+  </objects>
+</document>

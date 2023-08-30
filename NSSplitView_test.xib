@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" useAutolayout="YES" propertyAccessControl="none" customObjectInstantiationMethod="direct">
+  <dependencies>
+    <deployment identifier="macosx"/>
+    <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+    <capability name="documents saved in the Xcode 8 format" minToolsVersion="8"/>
+  </dependencies>
+  <objects>
+    <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+    <customObject id="-2" userLabel="File's Owner" customClass="NSApplication"/>
+    <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+    <window id="6e6-46-f77" autodisplay="YES" viewsNeedDisplay="YES" contentView="772-83-029" opaque="YES" canHide="YES" title="My Window" representedFilename="Window" miniwindowTitle="My Window">
+      <color key="backgroundColor" name="windowBackgroundColor" catalog="System" colorSpace="catalog"/>
+      <windowStyleMask titled="YES" closable="YES" miniaturizable="YES" resizable="YES" key="styleMask"/>
+      <rect key="contentRect" x="1.0" y="9.0" width="600" height="400"/>
+      <rect key="screenRect" x="0.0" y="0.0" width="3840" height="2160"/>
+      <view id="772-83-029" frameCenterRotation="0.0" boundsRotation="0.0" autoresizesSubviews="YES" frameRotation="0.0" key="contentView">
+        <rect key="bounds" x="0.0" y="0.0" width="600" height="400"/>
+        <autoresizingMask flexibleMinY="YES" key="autoresizeMask"/>
+        <rect key="frame" x="1.0" y="9.0" width="600" height="400"/>
+        <subviews>
+          <splitView id="3F8-4C-DDE" vertical="YES" frameCenterRotation="0.0" draggedBarWidth="8.0" boundsRotation="0.0" frameRotation="0.0">
+            <rect key="bounds" x="0.0" y="0.0" width="125" height="51"/>
+            <color key="dividerColor" name="controlShadowColor" catalog="System" colorSpace="catalog"/>
+            <rect key="frame" x="153.0" y="214.0" width="125" height="51"/>
+            <subviews>
+              <box id="782-83-029" frameCenterRotation="0.0" title="Box" borderWidth="0.0" boundsRotation="0.0" contentView="772-83-129" cornerRadius="0.0" frameRotation="0.0">
+                <rect key="bounds" x="0.0" y="0.0" width="60" height="51"/>
+                <rect key="frame" x="0.0" y="0.0" width="60" height="51"/>
+                <view id="772-83-129" frameCenterRotation="0.0" boundsRotation="0.0" autoresizesSubviews="YES" frameRotation="0.0" key="contentView">
+                  <rect key="bounds" x="0.0" y="0.0" width="46" height="25"/>
+                  <rect key="frame" x="7.0" y="7.0" width="46" height="25"/>
+                </view>
+              </box>
+              <box id="782-83-129" frameCenterRotation="0.0" title="Box" borderWidth="0.0" boundsRotation="0.0" contentView="772-83-229" cornerRadius="0.0" frameRotation="0.0">
+                <rect key="bounds" x="0.0" y="0.0" width="59" height="51"/>
+                <rect key="frame" x="66.0" y="0.0" width="59" height="51"/>
+                <view id="772-83-229" frameCenterRotation="0.0" boundsRotation="0.0" autoresizesSubviews="YES" frameRotation="0.0" key="contentView">
+                  <rect key="bounds" x="0.0" y="0.0" width="45" height="25"/>
+                  <rect key="frame" x="7.0" y="7.0" width="45" height="25"/>
+                </view>
+              </box>
+            </subviews>
+            <holdingPriorities>
+              <real value="250"/>
+              <real value="250"/>
+            </holdingPriorities>
+          </splitView>
+        </subviews>
+      </view>
+    </window>
+  </objects>
+</document>
